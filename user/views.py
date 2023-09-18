@@ -109,4 +109,6 @@ class SetNewPasswordAPI(APIView):
             return Response({'message': 'Invalid token.'})
             
         return Response(serializer.errors)
+    
+    
 		
